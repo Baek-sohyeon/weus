@@ -1,0 +1,32 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.slider {
+    width: 20%;
+    padding-left: 10%;
+}
+.item {
+    min-height: 50px;
+    min-width: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.itemTitle {
+    position: relative;
+}
+
+.slideBar {
+    transform: rotate(90deg);
+    left: 50%;
+    transform: translate(-10%, 100%) rotate(90deg);
+    transform-origin: top left;
+    
+}

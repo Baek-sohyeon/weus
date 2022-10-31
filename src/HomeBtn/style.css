@@ -1,0 +1,16 @@
+.btnContainer {
+    padding: 0 7rem;
+    text-align: right;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    width: 20rem;
+    height: 45px;
+    border-radius: 12px;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
